@@ -17,7 +17,11 @@
         <header class="l-header">
             <nav class="nav">
                 <div>
-                    <a href="#" class="nav__logo">Logo</a>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <a href="index.html" class="nav__logo">MK</a>
                 </div>
                
 
@@ -31,8 +35,7 @@
                         <li class="nav__item">
                             <i class="uil uil-moon change-theme" id="theme-button"></i>
                         </li>
-                            
-                        
+
                         
                     </ul>
                 </div>
@@ -43,19 +46,20 @@
             </nav>
         </header>
 
-        <main class="l-main">
+        <main class="l-main ">
             <!--===== HOME =====-->
+            <article class="article">
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hola!<br>soy <span class="home__title-color">Krause</span><br> Desarrollador web</h1>
 
-                    <a href="#" class="button btn btn-3">Contacto</a>
+                    <a href="mailto:manuelkrause10@gmail.com" class="button btn btn-3">Contacto</a>
                 </div>
 
                 <div class="home__social">
                     <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://github.com/Mkrause23" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="tel: +54 294 423 7510" class="home__social-icon"><i class="uil uil-phone"></i></a>
                 </div>
 
                 <div class="home__img">
@@ -70,8 +74,9 @@
                     </svg>
                 </div>
             </section>
-
+        </article>
             <!--===== ABOUT =====-->
+            <article class="article">
             <section class="about section " id="about">
                 <h2 class="section-title">Sobre mi</h2>
 
@@ -81,20 +86,25 @@
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">Manuel Krause</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <h2 class="about__subtitle">Biografía</h2>
+                        <p class="about__text">Mi nombre es Manuel Krause, tengo 18 años y soy Desarrollador Frontend. Trabajo de manera freelance desarrollando páginas web con diseños profesionales y de alta calidad, adaptables a cualquier interfaz y dispositivo para que tu marca o empresa logre conseguir el mejor posicionamiento en los buscadores, concentrándome en el rendimiento, las animaciones, capacidad de respuesta y el SEO.</p>   
+                        <p class="about__text">My name is Manuel Krause, I am an 18-year-old Frontend Developer. I work freelance developing web pages with high quality professional designs, adaptable to any interface and device, so that the client can achieve the best positioning in search engines, concentrating on performance, animations, responsiveness and SEO.</p>          
                     </div>                                   
                 </div>
             </section>
-
+        </article>
             <!--===== SKILLS =====-->
+            <article class="article">
             <section class="skills section" id="skills">
                 <h2 class="section-title">Habilidades</h2>
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Habilidades profesionales</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <article id="skills-text">
+                        <h2 class="skills__subtitle">Lenguajes y librerias que utilizo</h2>
+                        <p class="skills__text">Los Principales lenguajes que utilizo para el diseño y desarrollo de las páginas web son HTML, CSS y Javascript. Para mejorar el rendimiento y los diseños utilizo librerías como SASS, SCSS, Bootstrap y React. También diseño páginas con Worpress, que es recomendable para aquellas personas que busquen una web mas simlpe, con la misma caliad y rendimiento.</p>
+                        <p class="skills__text">The main languages used for the design and development of web pages are HTML, CSS and Javascript. To improve performance and designs, they use libraries such as SASS, SCSS, Bootstrap and React. I also design pages with Worpress, which is recommended for those who want to have their website more instantly, with simpler functions and designs.</p>
+                       </article>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
@@ -127,8 +137,22 @@
                             <div class="skills__bar skills__js">
                                 
                             </div>
+
                             <div>
-                                <span class="skills__percentage">60%</span>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-wordpress skills__icon' ></i>
+                                <span class="skills__name">WORDPRESS</span>
+                            </div>
+                            <div class="skills__bar skills__wordpress">
+                                
+                            </div>
+
+                            <div>
+                                <span class="skills__percentage">90%</span>
                             </div>
                         </div>
                         <div class="skills__data">
@@ -144,40 +168,70 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/img/work7.jpg" alt="" class="skills__img">
-                    </div>
                 </div>
             </section>
+        </article>
+
+        
+
+        
 
             <!--===== TRABAJO =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Trabajo</h2>
-
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
-                </div>
-            </section>
+            <article class="article">
+                <section id="s-projects">
+                    <div class="grid-layout">
+                      <h2 class="section-title">Proyectos</h2>
+                      <h2 class="s-proyects__subtitle"></h2>
+                      <p class="s-proyects__text"></p>
+                      <div id="projects">
+                        <article class="intervalCardReveal teslabank">
+                          <h3>Página 1</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          </p>
+            
+                          <a
+                            href="#"
+                            rel="noopener"
+                            target="_blank"
+                            id="teslabank"
+                            >Ver proyecto
+                          </a>
+                        </article>
+            
+                        <article class="intervalCardReveal naped">
+                          <h3>Página 2</h3>
+                          <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                          </p>
+            
+                          <a
+                            href="#"
+                            rel="noopener"
+                            target="_blank"
+                            id="naped"
+                            >Ver proyecto
+                          </a>
+                        </article>
+            
+                        <article class="intervalCardReveal efront">
+                          <h3>Página 3</h3>
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                          </p>
+                          <a
+                            href="#"
+                            rel="noopener"
+                            target="_blank"
+                            id="efront"
+                            >Ver proyecto
+                          </a>
+                        </article>
+                      </div>
+            </article>
 
             <!--===== CONTACTO =====-->
+            <article style="background-color: var(--background-color);">
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contacto</h2>
 
@@ -190,7 +244,8 @@
                     </form>
                 </div>
             </section>
-        </main>
+        </article>
+    </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
@@ -204,10 +259,7 @@
         </footer>
 
 
-        <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
     </body>
 </html>
